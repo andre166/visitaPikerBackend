@@ -2,7 +2,7 @@
   "name": "visitapicker_backend",
   "version": "1.0.0",
   "description": "teste visitapicker",
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
     "body-parser": "^1.19.0",
     "consign": "^0.1.6",
@@ -16,7 +16,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "André Mesquita",
   "license": "ISC"
